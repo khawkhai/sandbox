@@ -1,0 +1,41 @@
+{{>layout/header}}
+
+<div class="row">
+	
+	<div class="col-md-4 mb-2 border-right">
+		{{>task-list}}
+	</div>
+
+	<div class="col-md-8">
+
+		{{#task}}
+			{{#assigned}}
+				{{>task-details}}
+			{{/assigned}}
+
+			{{^assigned}}
+				{{>claimable-task-details}}
+			{{/assigned}}
+		{{/task}}
+
+		{{^task}}
+			<div class="d-flex justify-content-center">
+				<div>
+					<h3>No task selected.</h3>
+					<span>Select one from the list.</span>
+				</div>
+			</div>
+		{{/task}}
+
+	</div>
+	
+</div>
+    
+<script>
+	var count = {{count}};
+	if (count > 0) {
+		document.title = '(' + count + ') ' + document.title;
+	}    
+</script>
+
+{{>layout/footer}}

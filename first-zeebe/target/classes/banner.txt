@@ -1,0 +1,13 @@
+
+${Ansi.BRIGHT_BLUE}            *(((((
+${Ansi.BRIGHT_BLUE}        ((((((((((((((  ${Ansi.DEFAULT}######
+${Ansi.BRIGHT_BLUE}       ((((((((((((((((/${Ansi.DEFAULT}######
+${Ansi.BRIGHT_BLUE}      ((((((      ((((((${Ansi.DEFAULT}###########
+${Ansi.BRIGHT_BLUE}      ((((((       (((((${Ansi.DEFAULT}###########
+${Ansi.BRIGHT_BLUE}      *(((((((  ,( (((((${Ansi.DEFAULT}######
+${Ansi.BRIGHT_BLUE}        (((((((((( (((((${Ansi.DEFAULT}######
+${Ansi.BRIGHT_BLUE}           ((((((( (((((${Ansi.DEFAULT}######
+${Ansi.DEFAULT}                         ##########
+${Ansi.DEFAULT}                          #########
+
+:: Spring Boot${spring-boot.formatted-version} :: Avise Flow (v1.0.0) ::

@@ -1,0 +1,20 @@
+{{#task}}
+
+	<div class="border-bottom mb-2">
+		<span>Key: {{key}}</span>
+		
+		<div class="d-flex w-100 justify-content-between">
+	    <h2 class="mb-1">{{name}}</h2>
+	    <span>{{created}} ago</span>
+	  </div>
+	  
+	  <h6>{{description}}</h6>
+  </div>
+
+	<div>
+		<input type="hidden" id="task-key" value="{{key}}">
+	
+		{{{taskForm}}}		
+	</div>
+	
+{{/task}}
